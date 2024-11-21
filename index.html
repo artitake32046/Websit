@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Navbar</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- boostrap icon link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  
+  <nav class="navbar navbar-expand-lg bg-warning sticky-top">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/BigBasket_Logo.svg/1200px-BigBasket_Logo.svg.png" 
+             alt="BigBasket Logo" 
+             class="img-fluid12" 
+            >
+    </a>
+  
+      <!-- Toggle button for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navbar links (Search, Location, Login, Cart) -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <form class="d-flex flex-grow-1 mx-3">
+          <input class="form-control search-bar rounded-none" type="search" placeholder="Search for Products..." aria-label="Search">
+        </form>
+  
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+          <li class="nav-item">
+            <button class="btn bg-sucess me-3" type="button">
+              <i class="bi bi-geo-alt-fill"></i> Select Location
+            </button>
+          </li>
+          <li class="nav-item">
+            <button class="btn btn-login me-3 bg-dark text-white border-none" >Login / SignUp</button>
+          </li>
+          <li class="nav-item">
+            <button class="btn rounded-circleyour-class" title="Submit Form">
+              <i class="bi bi-cart-fill"></i>
+          </button>
+           
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- 2 nd navbar but use container -->
+  <div class="container py-1">
+    <div class="row bg-light shadow-lg">
+      <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center flex-wrap">
+          
+          <!-- Dropdown button for categories -->
+          <div class="d-flex align-items-center mt-2 mb-md-0">
+            <button class="btn btn-success dropdown-toggle mb-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop by Category
+            </button>
+          </div>
+    
+          <!-- Navigation links -->
+          <div class="d-flex flex-wrap gap-5 mb-2 mb-md-0">
+            <a class="nav-link" href="#">Exotic Fruits & Vegetables</a>
+            <a class="nav-link" href="#">Tea</a>
+            <a class="nav-link" href="#">Ghee</a>
+            <a class="nav-link " href="#">Nandini</a>
+            <a class="nav-link " href="#">Fresh Vegetables</a>
+          </div>
+    
+          <!--  images -->
+          <div class="d-flex flex-wrap gap-3 mb-2 mb-md-0 mt-2 justify-content-end">
+            <img src="https://www.bigbasket.com/media/uploads/banner_images/Smart_basket-250124-1.png" alt="Banner 1" class="img-fluid">
+            <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_cmc_m_offer_28_220921_all.png" alt="Banner 2" class="img-fluid">
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col-md-12">
+        <img src="https://www.bigbasket.com/media/uploads/banner_images/ibbn-sb101713837-27146_hp_c&h_c_detergent-&-cleaning_01112024_all.jpg?tr=w-1600,q-80" alt="" class="img-fluid rounded-3">
+      </div>
+    </div>
+  </div>
+<!-- marquee tag use -->
+  <div class="container py-1">
+    <div class="row bg-light ">
+      <div class="col-12">
+        <div class="marquee-container">
+          <div class="marquee-content">
+            <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_01.png?tr=w-190,q-80" alt="Image 1" class="img-fluid">
+            <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_02.png?tr=w-190,q-80" alt="Image 2" class="img-fluid">
+            <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_03.png?tr=w-190,q-80" alt="Image 3" class="img-fluid">
+            <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_04.png?tr=w-190,q-80" alt="Image 4" class="img-fluid">
+            <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_05.png?tr=w-190,q-80" alt="Image 5" class="img-fluid">
+            <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_250923_06.png?tr=w-190,q-80" alt="Image 6" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cards my basket -->
+  <div class="container py-4">
+    <div class="row ">
+      <div class="d-flex justify-content-between py-3">
+        <h5>My Smart Basket</h5>
+        <span>View All</span>
+      </div>
+    </div>
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card rouded-1">
+          <span class="badge">50% off</span>
+          <img src="https://www.bigbasket.com/media/uploads/p/m/10000025_32-fresho-banana-robusta.jpg?tr=w-154,q-80" class="card-img-top p-5 img-fluid rounded-3" alt="Product 1">
+          <div class="card-body ">
+           <h5 class="mb-1 text-secondary">fesho!</h5>
+              <p class="description">
+                Capsicum - Green (Loose)
+              </p>
+              <label for="dropdown" >Choose an option:</label>
+<select id="dropdown" name="options" class="form-select quantity-select mb-3">
+    <option value="76.00">300kg1</option>
+    <option value="109.96-79.99"> 500 kg</option>
+</select>
+              
+              <p>
+                <span class="price-new">₹76</span>
+                <span class="price-old">₹109.59</span>
+              </p>
+              <p class="reviews">
+                <span class="rating">★★★★★☆</span> (85 reviews)
+              </p>
+              <i class="bi bi-bookmark icons"></i>
+              <button class="btn add-btn btn-outline-danger ">Add to Cart</button>
+            
+            
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card rouded-1">
+          <span class="badge">50% off</span>
+          
+          <img src="https://www.bigbasket.com/media/uploads/p/m/10000067_26-fresho-capsicum-green.jpg?tr=w-154q-80" 
+     class="card-img-top p-5 img-fluid rounded-3" 
+     alt="Green Capsicum">
+          <div class="card-body ">
+            <h5 class="mb-1 text-secondary">fesho!</h5>
+            <p class="description">
+              Capsicum - Green (Loose)
+            </p>
+            <label for="dropdown" >Choose an option:</label>
+            <select id="dropdown" name="options" class="form-select quantity-select mb-3">
+                <option value="76.00">300kg1</option>
+                <option value="109.96-79.99"> 500 kg</option>
+            </select>
+              <p>
+                <span  class="price-new">₹76</span>
+                <span  class="price-old">₹109.59</span>
+              </p>
+              <p class="reviews">
+                <span class="rating">★★★★☆</span> (85 reviews)
+              </p>
+              <i class="bi bi-bookmark icons"></i>
+              <button class="btn add-btn btn-outline-danger ">Add to Cart</button>
+            
+            
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card rouded-1">
+          <span class="badge">50% off</span>
+          <img src="https://www.bigbasket.com/media/uploads/p/m/10000074_20-fresho-cauliflower.jpg?tr=w-154,q-80" class="card-img-top p-5 img-fluid rounded-3" alt="Product 1">
+          <div class="card-body ">
+            <h5 class="mb-1 text-secondary">fesho!</h5>
+            <p class="description">
+              Capsicum - Green (Loose)
+            </p>
+            <label for="dropdown" >Choose an option:</label>
+            <select id="dropdown" name="options" class="form-select quantity-select mb-3">
+                <option value="76.00">300kg1</option>
+                <option value="109.96-79.99"> 500 kg</option>
+            </select>
+              <p>
+                <span id="price-new" class="price-new">₹76</span>
+                <span id="price-old" class="price-old">₹109.59</span>
+              </p>
+              <p class="reviews">
+                <span class="rating">★★★★☆</span> (85 reviews)
+              </p>
+              <i class="bi bi-bookmark icons"></i>
+              <button class="btn add-btn btn-outline-danger">Add to Cart</button>
+            
+            
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card rouded-1">
+          <span class="badge">50% off</span>
+          <img src="https://www.bigbasket.com/media/uploads/p/m/10000326_16-fresho-coriander-leaves.jpg?tr=w-154,q-80" class="card-img-top p-5 img-fluid rounded-3"  alt="Product1">
+          <div class="card-body ">
+           <h5 class="mb-1 text-secondary">fesho!</h5>
+              <p class="description">
+                Capsicum - Green (Loose)
+              </p>
+              
+              <label for="dropdown" >Choose an option:</label>
+              <select id="dropdown" name="options" class="form-select quantity-select mb-3">
+                  <option value="76.00">300kg1</option>
+                  <option value="109.96-79.99"> 500 kg</option>
+              </select>
+              <p>
+                <span class="price-new">₹76</span>
+                <span class="price-old">₹109.59</span>
+              </p>
+              <p class="reviews">
+                <span class="rating">★★★★☆</span> (85 reviews)
+              </p>
+              <i class="bi bi-bookmark icons"></i>
+              <button class="btn add-btn btn-outline-danger">Add to Cart</button>
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- cards my Seller -->
+   <div class="container py-4">
+    <div class="row ">
+      <div class="d-flex justify-content-between py-3">
+        <h5>My Smart Basket</h5>
+        <span>View All</span>
+      </div>
+    </div>
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card rouded-1">
+          <span class="badge">50% off</span>
+          <img src="https://www.bigbasket.com/media/uploads/p/m/1224870_1-littles-baby-wipes-with-aloe-vera-jojoba-oil-vitamin-e.jpg?tr=w-154,q-80" class="card-img-top p-5 img-fluid rounded-3" alt="Product1">
+          <div class="card-body ">
+            <h6 class="text-muted mb-1">Littles</h6>
+              <h5 class="card-title">Baby Wipes - With Aloe Vera, Jojoba Oil & Vitamin E</h5>
+              <p class="reviews">
+                <span class="rating">★★★★☆</span> (85 Rating)
+              </p>
+              <label for="dropdown" >Choose an option:</label>
+              <select id="dropdown" name="options" class="form-select quantity-select mb-3">
+                  <option value="76.00">300kg1</option>
+                  <option value="109.96-79.99"> 500 kg</option>
+              </select>
+              </select>
+        <div class="d-flex gap-2 mb-3">
+      <span class="fw-bold" >₹198</span>
+      <del class="text-muted">₹380</del>
+    </div>
+              <i class="bi bi-bookmark icons"></i>
+              <button class="btn add-btn btn-outline-danger ">Add to Cart</button>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card rouded-1">
+          <span class="badge">50% off</span>
+          <img src="https://www.bigbasket.com/media/uploads/p/m/1224870_1-littles-baby-wipes-with-aloe-vera-jojoba-oil-vitamin-e.jpg?tr=w-154,q-80" class="card-img-top p-5 img-fluid rounded-3" alt="Product1">
+          <div class="card-body ">
+            <h6 class="text-muted mb-1">Littles</h6>
+    <h5 class="card-title" >Baby Wipes - With Aloe Vera, Jojoba Oil & Vitamin E</h5>
+    <p class="reviews">
+      <span class="rating">★★★★☆</span> (85 Rating)
+    </p>
+    <label for="dropdown" >Choose an option:</label>
+    <select id="dropdown" name="options" class="form-select quantity-select mb-3">
+        <option value="76.00">300kg1</option>
+        <option value="109.96-79.99"> 500 kg</option>
+    </select>
+    </select>
+    <div class="d-flex gap-2 mb-3">
+      <span class="fw-bold">₹198</span>
+      <del class="text-muted">₹380</del>
+    </div>
+              <i class="bi bi-bookmark icons"></i>
+              <button class="btn add-btn btn-outline-danger ">Add to Cart</button>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card rouded-1">
+          <span class="badge">50% off</span>
+          <img src="https://www.bigbasket.com/media/uploads/p/m/1224870_1-littles-baby-wipes-with-aloe-vera-jojoba-oil-vitamin-e.jpg?tr=w-154,q-80" class="card-img-top p-5 img-fluid rounded-3" alt="Product1">
+          <div class="card-body ">
+            <h6 class="text-muted mb-1">Littles</h6>
+            <h5 class="card-title" >Baby Wipes - With Aloe Vera, Jojoba Oil & Vitamin E</h5>
+            <p class="reviews">
+              <span class="rating">★★★★☆</span> (85 Rating)
+            </p>
+            <label for="dropdown" >Choose an option:</label>
+            <select id="dropdown" name="options" class="form-select quantity-select mb-3">
+                <option value="76.00">300kg1</option>
+                <option value="109.96-79.99"> 500 kg</option>
+            </select>
+    <div class="d-flex  gap-2 mb-3">
+      <span class="fw-bold">₹198</span>
+      <del class="text-muted">₹380</del>
+    </div>
+              <i class="bi bi-bookmark icons"></i>
+              <button class="btn add-btn btn-outline-danger ">Add to Cart</button>
+            
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card rouded-1">
+          <span class="badge">50% off</span>
+          <img src="https://www.bigbasket.com/media/uploads/p/m/1224870_1-littles-baby-wipes-with-aloe-vera-jojoba-oil-vitamin-e.jpg?tr=w-154,q-80" class="card-img-top p-5 img-fluid rounded-3" alt="Product1">
+          <div class="card-body ">
+            <h6 class="text-muted mb-1">Littles</h6>
+    <h5 class="card-title" >Baby Wipes - With Aloe Vera, Jojoba Oil & Vitamin E</h5>
+    <p class="reviews">
+      <span class="rating">★★★★☆</span> (85 Rating)
+    </p>
+    <label for="dropdown" >Choose an option:</label>
+    <select id="dropdown" name="options" class="form-select quantity-select mb-3">
+        <option value="76.00">300kg1</option>
+        <option value="109.96-79.99"> 500 kg</option>
+    </select>
+    <div class="d-flex  gap-2 mb-3">
+      <span class="fw-bold" >₹198</span>
+      <del class="text-muted">₹380</del>
+    </div>
+              <i class="bi bi-bookmark icons"></i>
+              <button class="btn add-btn btn-outline-danger ">Add to Cart</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+  
+  <!-- top offers -->
+  <div class="container py-4">
+    <h2 class="text-left text-uppercase font-weight-bold mb-4">Top Offers</h2>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card1 text-center">
+          <div class="card-header1">
+            DEALS OF
+          </div>
+          <div class="card-body1">
+            <h3>THE WEEK</h3>
+            <a href="#">View offers</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card1 text-center">
+          <div class="card-header1">
+            DEALS OF
+          </div>
+          <div class="card-body1">
+            <h3>THE WEEK</h3>
+            <a href="#">View offers</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card1 text-center">
+          <div class="card-header1">
+            DEALS OF
+          </div>
+          <div class="card-body1">
+            <h3>THE WEEK</h3>
+            <a href="#">View offers</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 4 -->
+      <div class="col-md-3 col-sm-6 col-12 mb-4">
+        <div class="card1 text-center">
+          <div class="card-header1">
+            DEALS OF
+          </div>
+          <div class="card-body1">
+            <h3>THE WEEK</h3>
+            <a href="#">View offers</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+<!-- vegetables -->
+<div class="container"> 
+
+  <h3 class="text-center mt-4">Fruits and Vegetables</h3>
+  <div class="row">
+  <div class="col-md-3 col-sm-4 col-6  p-2">
+    <div class="img1">
+          <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_herbs-&-seasoning_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+        </div>
+  </div>
+  <div class="col-md-3 col-sm-4 col-6  p-2">
+    <div class="img1">
+          <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_cuts-&-exotics_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+        </div>
+  </div>
+  <div class="col-md-3 col-sm-4 col-6  p-2">
+    <div class="img1">
+          <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_fresh-vegetables_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-6  p-2">
+        <div class="img1">
+              <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/41a0810e-1fc3-46e4-9d2c-7d9e79e0aa29/hp_f&v_m_fresh-fruits_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+            </div>
+      </div>
+      </div>
+          </div>
+
+
+          <!-- staples -->
+<div class="container">
+  <div class="row">
+    <h3 class="text-left mt-4">Your Daily Staples</h3>
+  
+   
+        <div class="col-md-2 col-sm-4 col-6  p-2">
+          <div class="img-container">
+                <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_atta-flour-staplesStorefront_m_480_250323_01.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+              </div>
+        </div>
+        <div class="col-md-2 col-sm-4 col-6  p-2">
+          <div class="img-container">
+              <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_rice-staplesStorefront_m_480_250323_02.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+             </div>
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 p-2">
+        <div class="img-container">
+            <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dals-pulses-staplesStorefront_m_480_250323_03.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+            </div>
+    </div>
+    <div class="col-md-2 col-sm-4 col-6  p-2">
+      <div class="img-container">
+          <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_cooking-oils-staplesStorefront_m_480_250323_04.jpg" class="card-img-top" alt="Atta & Flour">
+          </div>
+  </div>
+  <div class="col-md-2 col-sm-4 col-6 p-2">
+    <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_dry-fruits-staplesStorefront_m_480_250323_05.jpg" class="card-img-top" alt="Atta & Flour">
+      </div>
+  </div>
+  <div class="col-md-2 col-sm-4 col-6  p-2">
+    <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/0bb0a6da-8713-48fc-a40d-93cd63ca2025/hp_salt-staplesStorefront_m_480_250323_06.jpg" class="card-img-top" alt="Atta & Flour">
+       </div>
+  </div>
+        </div>
+  
+</div>
+<!-- Beverages -->
+<div class="container">
+  <div class="row">
+    <h3 class="text-left mt-3">Beverages</h3>
+
+    <!-- Image Card 1 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_health-drinks-&-supplements_480_250923.jpg" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 2 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_tea-&-coffee_480_250923.jpg" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 3 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_flavoured-&-soya-milk_480_250923.jpg" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 4 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_juices_480_250923.jpg" 
+             class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 5 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_energy-drinks_480_250923.jpg" 
+             class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 6 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/e4a9856b-dc3f-4927-a5a1-8edfe8d7dc38/hp_bev_m_soft-drinks-&-more_480_250923.jpg" 
+             class="card-img-top" alt="images">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- snake store -->
+<div class="container">   
+
+  <h3 class="text-left mt-4">Snake Store</h3>
+  <div class="row">
+  <div class="col-md-3 col-sm-4 col-6  p-2">
+    <div class="img2">
+          <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_biscuits-&-namkeens_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+        </div>
+  </div>
+  <div class="col-md-3 col-sm-4 col-6  p-2">
+    <div class="img2">
+          <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_pasta-sauces-&-more_480_270723.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+        </div>
+  </div>
+  <div class="col-md-3 col-sm-4 col-6  p-2">
+    <div class="img2">
+          <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_sweet-cravings_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+        </div>
+  </div>
+  <div class="col-md-3 col-sm-4 col-6  p-2">
+    <div class="img2">
+          <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/09ece9f7-7ac9-4d1e-afbb-f8ac572add38/hp_sbf_m_breakfast-cereals_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+        </div>
+  </div>
+  </div>
+      </div>
+
+      <!--Cleaning & Household  -->
+      <div class="container">   
+
+        <h3 class="text-left mt-4">Cleaning & Household</h3>
+        <div class="row">
+        <div class="col-md-3 col-sm-4 col-6  p-2">
+          <div class="img2">
+                <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_cleaners_480_250723.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-6  p-2">
+          <div class="img2">
+                <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_detergents-&-fabric-care_480_250723.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-6  p-2">
+          <div class="img2">
+                <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_paper-disposables-&-garbage-bags_480_250723.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-6  p-2">
+          <div class="img2">
+                <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/fefafda6-5ef7-4ed2-8fee-2574720666d7/hp_c&h_m_freshner_480_250723.jpg?tr=w-480,q-80" class="card-img-top" alt="Atta & Flour">
+              </div>
+        </div>
+        </div>
+            </div>
+<!-- Beauty and Hygiene -->
+<div class="container">
+  <div class="row">
+    <h3 class="text-left mt-3">Beauty and Hygiene</h3>
+
+    <!-- Image Card 1 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_moisturiser_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 2 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_-makeup_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 3 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_perfumes_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 4 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_mens-shaving_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 5 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_minimum-30-off_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 6 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/50aa5fc7-cfa4-4919-b3ba-064fd9aa9441/hp_b&h_m_big-pack-bigger-saving%20bf_480_250923.jpg?tr=w-480,q-80" class="card-img-top" alt="images">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- home kicthen -->
+<div class="container">
+  <div class="row">
+    <h3 class="text-left mt-3">Home and Kitchen</h3>
+
+    <!-- Image Card 1 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GMunder-99_m_250723_01.jpg?tr=w-480,q-80" 
+             class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 2 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GM100-199_m_250723_02.jpg?tr=w-480,q-80"
+             class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 3 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GMStorefront-pressure-cooker_m_250723_03.jpg?tr=w-480,q-80" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 4 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GMStorefront-stationery-store_m_250723_04.jpg?tr=w-480,q-80" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 5 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GM-storage-container_m_250723_05.jpg?tr=w-480,q-80" class="card-img-top" alt="images">
+      </div>
+    </div>
+    <!-- Image Card 6 -->
+    <div class="col-md-2 col-sm-4 col-6 p-2">
+      <div class="img-container">
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/91e53046-98e0-4c5b-ae53-7d073e5210e1/1efc132e-4754-4359-a9a3-a9c3ec267d28/hp_GM-cleaning-needs_m_250723_06.jpg?tr=w-480,q-80" class="card-img-top" alt="imges">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- carosuel -->
+<div class="container py-5">
+  <div class="row ">
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators (dots) -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active alle" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"  class="active alle" ></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"  class="active alle" ></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"  class="active alle" ></button>
+      </div>
+    
+      <!-- Slides -->
+      <div class="carousel-inner  rounded-5">
+        <div class="carousel-item active">
+          <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_m_petstore_250923_400.jpg?tr=w-1130,q-80" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_m_babycare_250923_400.jpg?tr=w-1130,q-80" class="d-block w-100" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_m_health_suppliment_250923_400.jpg?tr=w-1130,q-80" class="d-block w-100" alt="Slide 3">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.bigbasket.com/media/uploads/banner_images/hp_bcd_m_bcd_250923_400.jpg?tr=w-1130,q-80" class="d-block w-100" alt="Slide 4">
+        </div>
+      </div>
+    
+      <!-- Navigation Arrows -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+  </div>
+  <div class="row py-3">
+    <h2>bigbasket - online grocery store</h2>
+      <p>Did you ever imagine that the freshest of fruits and vegetables, top-quality pulses and food grains, dairy products, and hundreds of branded items could be handpicked and delivered to your home, all at the click of a button? In today's fast-paced world, bigbasket.com, India's pioneering online grocery store, continues to bring a staggering array of over 40,000 products from more than 1,000 brands to the doorsteps of over 10 million satisfied customers. From essential household cleaning products to the latest beauty and makeup trends, bigbasket remains your one-stop shop for daily needs.
+      
+      <br>
+      <br>
+      In these times, we've eliminated the stress associated with shopping for daily essentials. You can now effortlessly order all your household products and groceries online. Plus, the added convenience of finding all your requirements at a single source, coupled with substantial savings, demonstrates that bigbasket, India's largest online supermarket, has transformed the way we shop for groceries. Online grocery shopping has become second nature. And when it comes to freshness, whether it's fruits and vegetables or dairy and meat, we've got you covered! Easily obtain fresh eggs, meat, fish, and more with just a few clicks.
+      
+      <br><br>
+      We now serve 300+ cities and towns across India and ensure swift delivery times, guaranteeing that all your groceries, snacks and branded foods reach you on time.
+      
+      <br><br>
+      Slotted Delivery: Choose the most convenient delivery slot to receive your groceries, ranging from early morning delivery for early birds to late-night delivery for those on the night shift. bigbasket caters to every schedule.
+      
+      <br><br>
+      Instant delivery from bbnow: In response to the ever-increasing demand for convenience, bbnow by bigbasket offers lightning-fast grocery delivery, ensuring that your essentials are at your doorstep within 15-30 minutes. Our quick delivery service has revolutionized the way you shop for groceries. Choose from 5000+ grocery essentials. bbnow is available only in select cities.
+      
+      <br><br>
+      Whether it's a last-minute dinner party or you simply need something urgently, we've got you covered. This service exemplifies our commitment to providing you with not just the widest range of products but also the fastest and most efficient shopping experience, making bigbasket.com the go-to destination for all your immediate grocery needs.
+      
+    </p>
+  </div>
+</div>
+
+
+<!-- footer part -->
+<footer class="footer1 bg-dark text-white py-4">
+  <div class="container">
+      <div class="row">
+          <!-- BigBasket Section -->
+          <div class="col-md-4">
+              <h3>BigBasket</h3>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white  text-decoration-none">About Us</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">Become A BigBasket Rider</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">In News</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">Green BigBasket</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">Privacy Policy</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">Terms and Conditions</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">Careers at BigBasket</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">bb Instant</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">bb Daily</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">bb Blog</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">bbnow</a></li>
+              </ul>
+          </div>
+
+          <!-- Help Section -->
+          <div class="col-md-4">
+              <h3>Help</h3>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-white  text-decoration-none">FAQs</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">Contact Us</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">bb Wallet FAQs</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">bb Wallet T&Cs</a></li>
+                  <li><a href="#" class="text-white  text-decoration-none">Vendor Connect</a></li>
+              </ul>
+          </div>
+
+          <!-- Logo and Social Media Section -->
+          <div class="col-md-4 text-center">
+              <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQcokBEUagkNsEVlGSeNabAC6OTMVRHJQOpQqcMHUGWQiuzSRtE" alt="BigBasket Logo" class="mb-3 logo1">
+              
+              <div class=" mb-3">
+                  <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"  alt="Google Play" class="mx-2 images1 "></a>
+                  <a href="#"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us.svg"    alt="App Store" class="mx-2 images1"></a>
+              </div>
+              <div class="icons1 mb-5">
+                <a href="" class="text-white mx-2 text-decoration-none" aria-label="Facebook">
+                  <i class="bi bi-facebook"></i>
+              </a>
+              <a href="" class="text-white mx-2 text-decoration-none" aria-label="Instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="" class="border-1 text-white mx-2 text-decoration-none" aria-label="Twitter">
+                  <i class="bi bi-twitter"></i>
+              </a>
+              <a href="" class="text-white mx-2 text-decoration-none" aria-label="Pinterest">
+                  <i class="bi bi-pinterest"></i>
+              </a>
+              
+              
+              </div> 
+          </div>
+      </div>
+      <div class="row ">
+        <div class="col-lg-12 ">
+          
+   <div class="line1" ></div>
+          <h6 class="text-center text-white mt-3  ">Cities We Serve</h6>
+            <div class="d-flex flex-wrap justify-content-center city-list gap-2 ">
+              <a>Abohar  
+                |</a>
+               <a> Abu Road 
+                 |</a>
+                <a> Achampet  |</a>
+                <a>Achrol  |</a>
+                <a>Adampur |</a>
+                <a>Addanki |</a>
+                <a> Addateegala  |</a>
+                <a>Adilabad  
+                  |
+                </a>
+                <a>  Adimali |</a>
+                <a>Adoni |</a>
+                <a>Adoor |</a>
+                <a>Afzalpur |</a>
+                <a> Agali  |</a>
+                <a> AGARTALA |</a><br>
+                <a> Agra |</a>
+                <a> Ahmedabad-Gandhinagar |</a>
+                <a>Aizawl  |</a>
+                <a>Ajeetgarh  |</a>
+                <a> Ajmer |</a>
+                <a>Ajnala |</a>
+                <a> Akaloor |</a>
+                <a>  Akbarpur |</a>
+                <a>Akbarpur-UP |</a>
+                <a> Aklera|</a>
+                <a>Akola|</a>
+                <a>   Alair|</a>
+                <a>Alakode|</a>
+                <a> Aland|</a>
+                <a> Alappuzha |</a>
+                <a>Aligarh |</a>
+                <a>Aligarh District |</a>
+                <a>  ALIPURDUAR |</a>
+                <a>Alirajpur |</a>
+                <a> Allagadda |</a>
+                <a> Allahabad |</a>
+                <a>   Alleppey |</a>
+                <a>  Almora |</a>
+                <a>ALNAVAR |</a>
+                <a> Alote |</a>
+                <a>Alur |</a>
+                <a>  Aluva |</a>
+                <a> Alwar |</a>
+                <a>  Amalapuram |</a><a>Amangal |</a>
+                <a>Amanganj |</a>
+                <a> Amarapuram |</a>
+                <a>Amaravathi |</a>
+                <a>   Amarpatan |</a>
+                <a>Amarwara |</a>
+                <a>Ambala |</a>
+                <a>Ambasamudram |</a>
+                <a> Ambuj Nagar |</a>
+<a>   Ambur |</a><a>  Amethi District |</a><a> Amiliya |</a><a>Amla |</a><a> Amravati |</a><a> Amreli |</a><a>   Amritsar |</a><a>   Amroha District |</a><a>Anand |</a><a>Anandnagar |</a><a>    Anandpur Sahib |</a><a> Anantapur District |</a><a> Anantnag |</a><a>Andaman and Nicobar |</a><a>Angul |</a><a> Anjumoorthy |</a><a>  Ankleshwar |</a><a> Ankola |</a><a>Annur |</a><a>Anpara |</a>
+
+  <a>Anthiyour |</a><a>Anuppur |</a>
+  <a>Anupshahar |</a>
+  <a>    Aonla |</a>
+  <a> Arakkonam | </a>
+  <a>Aurangabad |</a>
+  <a>Aurangabad(BH) |</a>
+  <a>Avanigadda |</a>
+  <a>Avinashi |</a>
+  <a>Ayodhya District |</a> 
+            </div>
+        </div>
+    </div>
+<div class="row g-4 mt-4">
+      <div class="line1" ></div>
+      <!-- Popular Categories -->
+      <h6 class=" float-left justify-content-between ">Popular Categories plopp
+       
+      </h6>
+     
+      <div class="col-md-6 d-flex">
+        <div class="col-md-4 d-flex">
+          <ul type="none">
+           <li> Sunflower Oils</li>
+             <li>Milk</li>
+             <li>Organic F&V</li>
+              <li>Floor Cleaners</li>
+          <li>Frozen Veg Food </li>
+          </ul>
+        </div>
+        <div class="col-md-4 d-flex">
+          <ul type="none">
+            <li> Health Drinks
+              </li>
+              <li>Wheat Atta</li>
+              <li>Namkeen</li>
+              <li>Other Juices</li>
+              <li>Diapers & Wipes</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+         <ul type="none">
+           <li>Ghee</li>
+          <li>Flakes</li>
+          <li> Eggs</li>
+          <li>Leafy Vegetables</li>
+         </ul>
+
+        </div>
+      
+        </div>
+      
+      
+        <div class="col-md-6 d-flex">
+          
+         
+          <div class="col-md-4 d-flex">
+            <ul type="none">
+             <li> Sunflower Oils</li>
+               <li>Milk</li>
+               <li>Organic F&V</li>
+                <li>Floor Cleaners</li>
+            <li>Frozen Veg Food </li>
+            </ul>
+          </div>
+          <div class="col-md-4 d-flex">
+            <ul type="none">
+              <li> Health Drinks
+                </li>
+                <li>Wheat Atta</li>
+                <li>Namkeen</li>
+                <li>Other Juices</li>
+                <li>Diapers & Wipes</li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+            <ul type="none">
+              <li>Ghee</li>
+            <li>Flakes</li>
+            <li> Eggs</li>
+            <li>Leafy Vegetables</li>
+            </ul>
+  
+          </div>
+        
+          </div>
+         
+      </div>
+      
+         <!-- Popular Categories -->
+     
+         
+
+</footer>
+<!-- name -->
+<div class="container-fluid text-center fs-4 py-3 text-white ">
+  <h6>Copyright © 2023-2025 Supermarket Grocery Supplies Pvt Ltd</h6>
+</div>
+<!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS -->
+  <script>
+    const quantitySelects = document.querySelectorAll('.quantity-select');
+  
+  
+  quantitySelects.forEach(select => {
+  select.addEventListener('change', function() {
+  
+   const card = this.closest('.card');
+   const priceNew = card.querySelector('.price-new');
+   const priceOld = card.querySelector('.price-old');
+  
+   const selectedValue = this.value;
+  
+  
+   const [newPrice, oldPrice] = selectedValue.split('-');
+  
+   // Update the displayed prices
+   priceNew.textContent = `₹${newPrice}`;
+   priceOld.textContent = `₹${oldPrice}`;
+  });
+  });
+  </script>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
